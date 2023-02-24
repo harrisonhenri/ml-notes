@@ -1,0 +1,8 @@
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.Rproj.user
