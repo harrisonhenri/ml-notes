@@ -9,7 +9,6 @@ df.head()
 mpg = df[["Miles_per_Gallon", "Year", "Horsepower"]].groupby("Year").mean()
 
 # Seaborn
-palette_color = sns.color_palette("dark")
 sns.scatterplot(data=mpg, x=mpg.index.strftime("%Y"), y="Miles_per_Gallon")
 plt.show()
 sns.jointplot(data=mpg, x=mpg.index.strftime("%Y"), y=mpg["Miles_per_Gallon"])

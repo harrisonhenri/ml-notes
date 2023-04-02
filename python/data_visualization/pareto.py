@@ -18,7 +18,6 @@ mpg = (
 )
 
 # Seaborn
-sns.set(color_codes=True)
 fig, ax1 = plt.subplots()
 ax1.bar(np.arange(mpg["Miles_per_Gallon"].size), mpg["Miles_per_Gallon"])
 ax2 = ax1.twinx()
