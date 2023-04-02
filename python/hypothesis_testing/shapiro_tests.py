@@ -7,4 +7,3 @@ rng = np.random.default_rng()
 
 
 print(shapiro(production))
-
